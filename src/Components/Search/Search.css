@@ -1,0 +1,9 @@
+.search-wrapper{
+    margin: 0 auto;
+}
+
+#poke-name-search{
+    margin-top: 2rem;
+    width: 600px;
+    padding: 1rem;
+}
