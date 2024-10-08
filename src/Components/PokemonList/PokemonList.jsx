@@ -45,10 +45,15 @@ function PokemonList(){
 
     return (
         <div className="pokemon-list-wrapper">
-            <div>Pokemon List</div>
-            {(loading) ? 'Loading....' : 
-                pokemonList.map((p) => <Pokemon name={p.name} image={p.image} key={p.id} id={p.id} />)
-            }
+            <div className="pokemon-wrapper">
+                {(loading) ? 'Loading....' : 
+                    pokemonList.map((p) => <Pokemon name={p.name} image={p.image} key={p.id} id={p.id} />)
+                }
+            </div>
+            <div className="controls ">
+                <button className="btns">Prev</button>
+                <button className="btns">Next</button>
+            </div>
         </div>
     );
 }
