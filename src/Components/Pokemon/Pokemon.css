@@ -2,7 +2,7 @@
     margin-top: 2rem;
     flex-basis: 20%;
     height: 200px;
-    width: 300px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +20,12 @@
 
 .pokemon:hover{
     border-radius: 10px;
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: transform .3s;
     background-color: beige;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
 }
