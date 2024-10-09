@@ -1,3 +1,25 @@
 body{
     font-family: sans-serif;
 }
+
+.outer-pokedex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.main-banner{
+  display: flex;
+}
+
+#pokedex-heading{
+    margin: 0 auto;
+    letter-spacing: 5px;
+}
+
+.home-route{
+    text-decoration: none;
+    color: black;
+}
