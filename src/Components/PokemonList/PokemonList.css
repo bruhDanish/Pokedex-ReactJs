@@ -25,3 +25,24 @@
     transform: scale(1.1);
     transition: transform .2s;
 }
+
+@media screen and (max-width: 635px){
+    .pokemon-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4rem;
+        row-gap: 2rem;
+    }
+
+    .pokemon-list-wrapper{
+        gap: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .pokemon-wrapper{
+        column-gap: 3rem;
+        row-gap: 2rem;
+    }
+}
